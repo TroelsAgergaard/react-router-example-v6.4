@@ -1,9 +1,16 @@
-const styles = {
-  padding: "5px, 10px",
-};
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 
 const NavItem = (props) => {
-  return <div style={styles}>{props.title}</div>;
+  return (
+    <span
+      css={css`
+        color: #f2e9e4;
+      `}
+    >
+      {props.title}
+    </span>
+  );
 };
 
 export default NavItem;

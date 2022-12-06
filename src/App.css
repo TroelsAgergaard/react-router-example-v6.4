@@ -1,5 +1,3 @@
-.NavItem {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
+.App {
+  text-align: center;
 }
