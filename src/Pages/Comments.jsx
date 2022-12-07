@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 
-const Kontakt = () => {
+const Comments = () => {
   return (
     <>
-      <h1>Kontakt indhold</h1>
+      <h1>Comments from:</h1>
       <Outlet />
     </>
   );
 };
 
-export default Kontakt;
+export default Comments;

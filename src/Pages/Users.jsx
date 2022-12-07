@@ -15,6 +15,7 @@ const Users = () => {
 
   return (
     <>
+      <h1>Users:</h1>
       {users &&
         users.map((user) => (
           <Link

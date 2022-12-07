@@ -31,14 +31,14 @@ const Navigation = (props) => {
         </li>
         <li>
           <LinkWrapper
-            route="/kontakt"
-            description={<NavItem title="All Comments" />}
+            route="/comments"
+            description={<NavItem title="All Comment emails" />}
           />
         </li>
         <li>
           <LinkWrapper
-            route="/omos"
-            description={<NavItem title="Preloaded All Comments" />}
+            route="/preload/comments"
+            description={<NavItem title="Preloaded Comment emails" />}
           />
         </li>
       </ul>
